@@ -38,6 +38,15 @@ namespace RestaurantMenu
                 get { return updated; }
                 internal set { updated = value; }
             }
+
+            //menu is a list of dictionaries
+            //menu class contains a method that creates the dictionary containing the values for each menu item
+            // the value for some keys will be instance methods (i.e. category, new item, date added)
+            //menu class contains a method that removes items from the menu list
+            //menu class contains a method that allows the user to print a single menu list items as well as the full menu list
+
+            //menu item class contains a method that instantiates objects from the selected dictionary items found in the menu list
+            //menu item contains a method that compares menu objects to check to see if they're equal
         }
 
     }
